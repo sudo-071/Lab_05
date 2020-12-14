@@ -5,7 +5,7 @@ int main()
 	int frac_part = (src - int_part) * 1000;	/*extracting fractional part of the number*/
 	double result;
 	if (int_part != 0){						/*dividing by zero check*/
-		double res = ((float)frac_part / (float)int_part);
+		double res = ((double)frac_part / (double)int_part);
 		int res_2 = res * 100;
 		result = res_2 / 100.0;
 	}else{
