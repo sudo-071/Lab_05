@@ -7,7 +7,7 @@ int main()
 			res = i;		
 		}
 	}
-	if (res == 1 || res == src){ 		/*checking that number is prime*/
+	if (res == 1){ 		/*checking that number is prime or not*/
 		/*number is prime*/
 	}
 	return 0;
